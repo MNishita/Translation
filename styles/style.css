@@ -47,6 +47,10 @@ textarea {
   border: 3px solid rgb(110, 99, 99);
 }
 
+textarea:focus {
+  outline: none;
+}
+
 button {
   background-color: rgb(8, 71, 129); 
   color: var(--text-color);
@@ -88,4 +92,11 @@ button:active {
   font-weight: 500;
   border-radius: 3.5rem 1rem;
   border: 3px solid rgb(110, 99, 99);
+}
+
+@media (min-width:475px) {
+  .output-container {
+    background-position: 22% 55%;
+    padding: 2rem 8rem 4rem 0.5rem;
+  }
 }
